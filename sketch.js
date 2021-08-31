@@ -7,12 +7,12 @@ function setup(){
    database=firebase.database();
    game=new Game();
    game.getState();
+   game.start();
 
 
-database =firebase.database()
-game=new Game()
-game.start();
-game.start
+
+
+
 };
 
 function draw(){

@@ -15,7 +15,7 @@ class Player
 
 updateCount(count)
 {
-    database.ref('/').updateCount({
+    database.ref('/').update({
 
         playerCount:count
     })

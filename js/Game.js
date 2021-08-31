@@ -28,7 +28,7 @@ class Game{
     
        if(playerCountRef.exists()){
            playerCount=playerCountRef.val()
-           player,getCount();
+           player.getCount();
        }
         form=new Form();
         form.display()

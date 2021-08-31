@@ -2,7 +2,8 @@ class  Form
 {
     constructor()
     {
-        this.title.html("Car Racing Game")
+        this.title=createElement('h2')
+        //this.title.html("Car Racing Game")
         this. input=createInput("Name");
         this. button =createButton("Play")
         this. greeting =createElement('h2') 
@@ -13,7 +14,7 @@ class  Form
     {
         this.input.hide();
         this.button.hide();
-        this.greeying.hide();
+        this.greeting.hide();
     }
     display()
     {
